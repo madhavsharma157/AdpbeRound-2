@@ -1,0 +1,61 @@
+{
+    "metadata": {
+        "input_documents": [
+            "test_case_1_academic_research.pdf",
+            "test_case_2_business_analysis.pdf",
+            "Reaction_Kinetics_Study_Guide.pdf"
+        ],
+        "persona": [
+            {
+                "role": "PhD Researcher in Computational Biology",
+                "job_to_be_done": "Prepare a comprehensive literature review focusing on methodologies, datasets, and performance benchmarks"
+            },
+            {
+                "role": "Investment Analyst",
+                "job_to_be_done": "Analyze revenue trends, R&D investments, and market positioning strategies"
+            },
+            {
+                "role": "Undergraduate Chemistry Student",
+                "job_to_be_done": "Identify key concepts and mechanisms for exam preparation on reaction kinetics"
+            }
+        ],
+        "processing_timestamp": "2025-07-28T15:41:08.372934Z"
+    },
+    "extracted_sections": [
+        {
+            "document": "test_case_1_academic_research.pdf",
+            "page_number": 1,
+            "section_title": "Literature Review Preparation",
+            "importance_rank": 1
+        },
+        {
+            "document": "test_case_2_business_analysis.pdf",
+            "page_number": 1,
+            "section_title": "Business Analysis Preparation",
+            "importance_rank": 1
+        },
+        {
+            "document": "Reaction_Kinetics_Study_Guide.pdf",
+            "page_number": 1,
+            "section_title": "Reaction Kinetics \u2013 Key Concepts and Mechanisms",
+            "importance_rank": 1
+        }
+    ],
+    "sub_section_analysis": [
+        {
+            "document": "test_case_1_academic_research.pdf",
+            "refined_text": "The researcher can directly navigate to methodologies, datasets, and benchmarks using the merged outline.",
+            "page_number": 1
+        },
+        {
+            "document": "test_case_2_business_analysis.pdf",
+            "refined_text": "Identify key financial sections quickly (Income Statements, R&D expenses). Track trends and summarize strategies via structured outlines.",
+            "page_number": 1
+        },
+        {
+            "document": "Reaction_Kinetics_Study_Guide.pdf",
+            "refined_text": "Includes key topics: rate laws, Arrhenius equation, energy profiles, reaction mechanisms and exam-level practice problems.",
+            "page_number": 1
+        }
+    ]
+}
